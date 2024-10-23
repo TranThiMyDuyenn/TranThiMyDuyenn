@@ -1,0 +1,106 @@
+    /* src/components/Header.module.css */
+
+    .header {
+        background-color: #fff; /* Màu nền cho header */
+        padding: 20px 30px; /* Tăng khoảng cách bên trái và bên phải để tạo cảm giác thoáng hơn */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng để tạo độ sâu */
+    }
+
+    /* Styles cho phần Promo Header */
+    .promoHeader {
+        background-color: #634C9F; /* Màu nền cho header */
+        color: white; /* Màu chữ */
+        padding: 15px 20px; /* Padding đồng đều */
+        display: flex; /* Sử dụng flexbox */
+        justify-content: flex-start; /* Căn trái cho các mục */
+        align-items: center; /* Căn giữa theo chiều dọc */
+        border-radius: 5px; /* Bo góc */
+        margin-bottom: 20px; /* Khoảng cách dưới phần promo header */
+        gap: 15px; /* Giảm khoảng cách để tạo sự gọn gàng hơn */
+    }
+
+    /* Styles cho thông điệp khuyến mãi */
+    .promoMessage {
+        font-size: 14px; /* Kích thước chữ */
+        font-weight: normal; /* Trọng số chữ bình thường để dễ đọc */
+        padding: 8px; /* Giảm padding để tạo sự sạch sẽ */
+        text-align: left; /* Căn trái cho nội dung */
+    }
+
+    /* Hiệu ứng hover cho thông điệp khuyến mãi */
+    .promoMessage:hover {
+        color: #ffdd57; /* Đổi màu khi hover */
+    }
+
+    /* Styles cho phần Top Bar */
+    .topBar {
+        display: flex; /* Sử dụng flexbox */
+        justify-content: space-between; /* Khoảng cách giữa các mục */
+        align-items: center; /* Căn giữa theo chiều dọc */
+        padding: 10px 0; /* Padding đồng đều theo chiều dọc */
+    }
+
+    /* Styles cho logo */
+    .logo img {
+        height: 50px; /* Chiều cao đồng nhất cho logo */
+    }
+
+    /* Styles cho container tìm kiếm */
+    .searchContainer {
+        display: flex; /* Sử dụng flexbox */
+        align-items: center; /* Căn giữa theo chiều dọc */
+    }
+
+    /* Styles cho nút tìm kiếm */
+    .searchButton {
+        margin-left: 10px; /* Khoảng cách bên trái của nút */
+        padding: 8px 12px; /* Padding cho nút */
+        background-color: #634C9F; /* Màu nền cho nút */
+        color: white; /* Màu chữ cho nút */
+        border: none; /* Không viền */
+        border-radius: 4px; /* Bo góc */
+        cursor: pointer; /* Hiển thị con trỏ tay khi hover */
+        transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền mượt mà */
+    }
+
+    .searchButton:hover {
+        background-color: #7A67B3; /* Màu tối hơn khi hover */
+    }
+
+    /* Styles cho thông tin tài khoản */
+    .accountInfo {
+        display: flex; /* Sử dụng flexbox */
+        gap: 20px; /* Tăng khoảng cách giữa các mục để dễ nhìn hơn */
+    }
+
+    /* Styles cho thanh điều hướng */
+    .navBar {
+        background-color: #f8f8f8; /* Màu nền sáng cho thanh điều hướng */
+        padding: 10px 0; /* Padding đồng đều */
+    }
+
+    /* Styles cho danh sách thanh điều hướng */
+    .navBar ul {
+        list-style: none; /* Bỏ kiểu danh sách mặc định */
+        display: flex; /* Sử dụng flexbox */
+        justify-content: center; /* Căn giữa các mục */
+        padding: 0; /* Bỏ padding */
+    }
+
+    /* Styles cho mục trong thanh điều hướng */
+    .navBar li {
+        padding: 0 20px; /* Tăng padding cho các mục */
+    }
+
+    /* Styles cho liên kết trong thanh điều hướng */
+    .navBar a {
+        text-decoration: none; /* Bỏ gạch chân */
+        color: #333; /* Màu chữ tối */
+        font-size: 14px; /* Kích thước chữ đồng nhất */
+        transition: color 0.3s; /* Hiệu ứng chuyển màu mượt mà */
+    }
+
+    /* Hiệu ứng hover cho các liên kết trong thanh điều hướng */
+    .navBar a:hover {
+        color: #007bff; /* Đổi màu khi hover */
+    }
